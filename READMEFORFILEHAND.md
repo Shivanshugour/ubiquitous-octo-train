@@ -1,4 +1,5 @@
 # ubiquitous-octo-train
+REMEMBER THIS CODE IS FOR PYTHON
 Write a program to create the file  message.txt in d:\ of your computer
 
 Now ask the user to continuously type messages and save them in the file line by line.
