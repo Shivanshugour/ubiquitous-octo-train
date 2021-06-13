@@ -1,0 +1,20 @@
+f=None
+try:
+    f=open("F:\handling\space","w")
+    print("file created sucessfully")
+    print("enter something disrespectfully and if you wanna close it then press Enter twice")
+    count=0
+    while True:
+        str=input()
+        if str=="":
+            break
+        str=str+"\n"
+        f.write(str)
+        count=count+1
+    print("Total count is",count)
+except (OSError) as e:
+    print("the exception is",e)
+finally:
+    if f is not None:
+        f.close()
+        print("file is closed")
